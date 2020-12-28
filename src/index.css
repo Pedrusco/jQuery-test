@@ -1,0 +1,30 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+.container.main-container {
+  max-width: 80rem;
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+}
+
+.button.button-outline.unavailable {
+  border: 0.1rem solid #c53f3f;
+  color: #c53f3f;
+}
+
+.button.button-outline.available {
+  border: 0.1rem solid #3fc58d;
+  color: #3fc58d;
+}
